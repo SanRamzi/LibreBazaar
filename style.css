@@ -1,0 +1,143 @@
+body {
+  margin:0;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  letter-spacing: 5px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 15px 20px;
+  padding: 0;
+}
+
+.header-left{
+  margin-left: 70px;
+}
+
+.header-right{
+  margin-right: 70px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+.main-title{
+  font-size: 3em;
+  margin: 150px 0 0 15%;
+  padding: 20px;
+}
+
+.main-description {
+  margin: 0 0 0 15%;
+  padding: 20px;
+}
+
+.shop-now-button {
+  margin: 15px 0 0 20%;
+  padding: 10px;
+  border: white solid 1px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 4px;
+}
+
+.shop-now-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content-right {
+  max-width: 400px;
+}
+.main-image {
+  margin: 0;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.men-women-section {
+  display: flex;
+  background-color: white;
+  padding: 20px 200px;
+}
+
+.men-section {
+  position: relative;
+  display: inline-block;
+  margin:20px auto;
+}
+
+.men-women-img {
+  max-width:400px;
+}
+
+.overlay-text {
+  position: absolute;
+  letter-spacing: 10px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  border-radius: 10px;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+}
+
+.footer {
+  display:flex;
+  margin:10px 200px;
+  padding:20px;
+}
+
+.footer-center {
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.footer-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: flex;
+  margin: 0 0 0 40%;
+}
+
+.social-item {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.social-logo {
+  width: 40px;
+}
